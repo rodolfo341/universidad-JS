@@ -1,5 +1,5 @@
 
-var nombre = "Rodolfo";
+var nombre = "Manchas";
 
 console.log(nombre);
 
