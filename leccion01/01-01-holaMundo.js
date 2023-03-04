@@ -1,7 +1,13 @@
 
-var nombre = "Manchas";
+var miObjeto = {
+    nombre : "Rodolfo",
+    apellido : "Aravena",
+    edad : 25
+};
 
-console.log(nombre);
+
+
+console.log(miObjeto);
 
 
 
