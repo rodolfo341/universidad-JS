@@ -1,13 +1,4 @@
 
-var miObjeto = {
-    nombre : "Rodolfo",
-    apellido : "Aravena",
-    edad : 25
-};
+let saludo = "hola mundo";
 
-
-
-console.log(miObjeto);
-
-
-
+console.log(saludo);
