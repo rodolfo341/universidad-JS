@@ -1,6 +1,8 @@
 
-let saludo = "hola mundo";
+const MiObj ={
+    nombre: "Rodolfo",
+    edad: 51
 
-console.log(saludo);
+}
 
-document.write(saludo);
+console.log(MiObj);
