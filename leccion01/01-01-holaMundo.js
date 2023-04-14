@@ -3,6 +3,7 @@
 let miVariable = "cadena";
 console.log(typeof miVariable);
 
+
 miVariable = 10;
 console.log(typeof miVariable);
 
