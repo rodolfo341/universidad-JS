@@ -1,9 +1,10 @@
 
 function miFuncion(){}
 
-console.log(miFuncion);
+console.log(typeof(miFuncion));
 
-document.getElementById("parrafo").innerHTML = miFuncion;
+
+document.getElementById("parrafo").innerHTML = typeof(miFuncion);
 
 
 
