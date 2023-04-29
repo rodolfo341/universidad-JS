@@ -1,10 +1,10 @@
 
-function miFuncion(){}
+let simbolo = Symbol("mi simbolo");
 
-console.log(typeof(miFuncion));
+console.log(typeof simbolo);
 
 
-document.getElementById("parrafo").innerHTML = typeof(miFuncion);
+document.getElementById("parrafo").innerHTML = simbolo.description;
 
 
 
