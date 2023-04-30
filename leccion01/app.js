@@ -6,15 +6,3 @@ console.log(typeof colores);
 
 document.getElementById("parrafo1").innerHTML = colores;
 document.getElementById("parrafo2").innerHTML = typeof colores;
-
-
-
-
-
-
-
-
-
-
-
-
