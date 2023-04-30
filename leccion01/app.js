@@ -1,8 +1,13 @@
 
-const colores = ["blanco", "azul", "rojo"];
+let nombre = "Rodolfo";
+let apellido = "Aravena";
 
-console.log(colores);
-console.log(typeof colores);
+console.log(nombre);
+document.getElementById("parrafo1").innerHTML = nombre + " " + apellido;
 
-document.getElementById("parrafo1").innerHTML = colores;
-document.getElementById("parrafo2").innerHTML = typeof colores;
+let nombrePerro = "Manchas" + " " + "Perro";
+document.getElementById("parrafo2").innerHTML = nombrePerro;
+
+let nombreApellido = nombre;
+console.log(nombreApellido);
+document.getElementById("parrafo3").innerHTML = nombreApellido;
