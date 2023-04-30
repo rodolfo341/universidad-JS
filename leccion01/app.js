@@ -1,15 +1,11 @@
 
-class Persona {
-    constructor (nombre, edad){
-        this.nombre = nombre,
-        this.edad = edad
-    }
-}
+var x;
 
-console.log(Persona);
-console.log(typeof Persona);
+console.log(typeof x);
 
-document.getElementById("parrafo").innerHTML = Persona;
+document.getElementById("parrafo").innerHTML = x;
+
+
 
 
 
