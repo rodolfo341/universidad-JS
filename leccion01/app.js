@@ -1,10 +1,11 @@
 
-let x = null;
+const colores = ["blanco", "azul", "rojo"];
 
-console.log(x);
-console.log(typeof x);
+console.log(colores);
+console.log(typeof colores);
 
-document.getElementById("parrafo").innerHTML = typeof x;
+document.getElementById("parrafo1").innerHTML = colores;
+document.getElementById("parrafo2").innerHTML = typeof colores;
 
 
 
