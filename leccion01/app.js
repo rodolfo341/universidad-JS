@@ -1,11 +1,15 @@
 
-let simbolo = Symbol("mi simbolo");
+class Persona {
+    constructor (nombre, edad){
+        this.nombre = nombre,
+        this.edad = edad
+    }
+}
 
-console.log(typeof simbolo);
+console.log(Persona);
+console.log(typeof Persona);
 
-
-document.getElementById("parrafo").innerHTML = simbolo.description;
-
+document.getElementById("parrafo").innerHTML = Persona;
 
 
 
