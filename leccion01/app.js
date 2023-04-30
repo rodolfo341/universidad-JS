@@ -1,13 +1,8 @@
 
-let nombre = "Rodolfo";
-let apellido = "Aravena";
+document.getElementById("parrafo1").innerHTML = "Manchas" + 2;
 
-console.log(nombre);
-document.getElementById("parrafo1").innerHTML = nombre + " " + apellido;
+document.getElementById("parrafo2").innerHTML = "Manchas" + 2 + 4;
 
-let nombrePerro = "Manchas" + " " + "Perro";
-document.getElementById("parrafo2").innerHTML = nombrePerro;
+document.getElementById("parrafo3").innerHTML = 2 + 4 + "Manchas";
 
-let nombreApellido = nombre + " " + apellido;
-console.log(nombreApellido);
-document.getElementById("parrafo3").innerHTML = nombreApellido;
+document.getElementById("parrafo4").innerHTML = "Manchas" + ( 2 + 4 );
